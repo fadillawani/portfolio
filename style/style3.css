@@ -1,0 +1,118 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    
+}
+body{
+    margin-top: 0;
+}
+
+nav .profil {
+    display: flex;
+    align-items: center;
+}
+
+nav .profil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav .profil h1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+nav ul li .comp {
+    color: red;
+}
+nav ul li a{
+text-decoration: none;
+color: #000;
+}
+nav ul li:hover {
+    border-bottom-color: #000;
+}
+
+.grand h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+}
+
+.colonne .info {
+    margin: 35px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    justify-content: center;
+}
+.colonne p{
+    margin: 1%;
+    margin-left: 2%;
+}
+
+
+.index {
+    display: flex;
+    flex-direction: wrap;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.index button{
+    justify-content: space-around;
+    margin: 1%;
+    border-color:#fff;
+    background-color:beige;
+}
+.index .texte{
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+    
+
+ 
+
+footer{
+height: 50px;
+background-color: #444;
+color: #CCC;
+font-size: 12px;
+text-align: center;
+padding: 20px 100px;
+margin-top: 6%;
+justify-content: space-around;
+}
+
+@media screen and (max-width:700px) {
+    nav {
+        justify-content: center;
+    }
+
+   nav ul {
+    margin-left: 10px;
+   }
+   .index .texte{
+    margin-top: 6%;
+    margin-left: 2%;
+   }
+}
